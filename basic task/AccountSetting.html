@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+</html>
+
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        function Toggle(value){
+        switch(value){
+        case 'General':
+        document.getElementById('General').style.display="block";
+        document.getElementById('Password').style.display="none";
+        document.getElementById('Info').style.display="none";
+        document.getElementById('Notification').style.display="none";
+        break;
+        case 'Password':
+        document.getElementById('General').style.display="none";
+        document.getElementById('Password').style.display=" block";
+        document.getElementById('Info').style.display="none";
+        document.getElementById('Notification').style.display="none";
+        
+        break;
+        case 'Info':
+        document.getElementById('General').style.display="none";
+        document.getElementById('Password').style.display="none";
+        document.getElementById('Info').style.display="block";
+        document.getElementById('Notification').style.display="none";
+        break;
+        case 'Notification':
+        document.getElementById('General').style.display="none";
+        document.getElementById('Password').style.display="none";
+        document.getElementById('Info').style.display="none";
+        document.getElementById('Notification').style.display="block";
+        break;
+        }
+        }
+        </script>
+</head>
+<body >
+
+        <div class="Title" >
+            <span>Account Settings</span>
+        </div>
+
+        <div class="box1" >
+            <div style="float: left;">
+
+            <div class="menu" onclick="Toggle('General')" >
+                <span>general</span>
+            </div>
+
+            <div class="menu" onclick="Toggle('Password')">
+                <span>change password</span>
+            </div>
+
+            <div class="menu" onclick="Toggle('Info')">
+                <span>info</span>
+            </div>
+
+            <div class="menu" onclick="Toggle('Notification')">
+                <span>notification</span>
+            </div>
+            
+        </div>
+
+            
+
+            <div class="box2" id="General" >
+                
+                    <div class="box3" >
+                        <img src="avatar.png" alt="avatar" style="height: 50px;width: 50px;" >
+                    </div>
+                
+
+                <div  class="box6">
+            
+                <div class="box4">
+                    <button class="button2">upload new photo</button>
+                </div>
+                <div class="box5" >
+                    <button class="button3">reset</button>
+                </div>
+                <div class="button1" style="clear: left;">
+                    <span class="span1"> allowed JPG.GIF or BNG max size of 800k</span>
+                </div>
+        
+
+              
+           
+        </div>
+
+        <div>
+                    
+            <div class="box7" >
+            <div class="box8">
+                <span>user names</span>
+                <input type="text"  id="txt_name" style="width: 500px;"/>
+
+            </div>
+            <div class="box9">
+                <span>Password</span>
+                <input type="password" style="width: 500px;"/>
+
+            </div>
+            <div class="box10">
+                <span>email</span>
+                <input type="email" style="width: 500px;"  />
+
+            </div>
+
+<div class="box11">
+<span class="span2">your Email is not confirmed.pleace check your inbox </span>
+
+
+<div class="email">
+<a href="email">resend confirmation</a>
+</div>
+
+</div>
+           
+
+            <div class="box17">
+                <span> company </span>
+                <input type="text" style="width: 500px;"/> 
+           </div>
+            
+
+        
+        </div>
+
+        
+ 
+        <div class="box12">
+            <button class="button4">cancel</button>
+        </div>
+
+        <div class="box13">
+            <button class="button5">savechang</button>
+        </div>
+
+
+    </div>
+
+        </div>
+        
+<div id="Password" style="display: none;" class="password"> 
+    <div>
+        <div class="box14">
+            <span>Current password</span>
+            <input type="text"  id="password" style="width: 500px;"/>
+
+        </div>
+        <div class="box15">
+            <span>New password</span>
+            <input type="text"  id="password" style="width: 500px;"/>
+
+        </div>
+        <div class="box16">
+            <span>Repeat New password</span>
+            <input type="text"  id="password" style="width: 500px;"/>
+
+        </div>
+
+        
+        <div class="box18">
+            <button class="button6">cancel</button>
+        </div>
+
+        <div class="box19">
+            <button class="button7">savechang</button>
+        </div>
+
+    </div>
+
+</div>
+<div class="info" id="Info" style="display: none;">Info
+<div>
+    <div class="box20">
+        <span>Bio</span>
+        <input type="text"  style="width: 500px;"/>
+    </div>
+
+        <div class="box21">
+            <span>Birthday</span>
+            <input type="date"   style="width: 500px;"/>
+         </div>
+         <div class="box22">
+            <span>Bio</span>
+            <input type="text"  style="width: 500px;"/>
+        </div>
+        <div class="box23">
+            <span>Country</span>
+            <select class="list1">
+                <option disabled selected> Country</option>
+                <option value="jorden">jorden</option>
+                <option value="usa">usa</option>
+            </select>
+            
+        </div>
+<div class="">Contacts
+    <div class="box24">
+        <span>phone</span>
+        <input type="text"  style="width: 500px;"/>
+    </div>
+
+    <div class="box25">
+        <span>website</span>
+        <input type="text"  style="width: 500px;"/>
+    </div>
+</div>
+
+        
+   
+</div>
+
+</div>
+<div id="Notification" style="display: none;"> Notification</div>
+
+        </div>
+</body>
+

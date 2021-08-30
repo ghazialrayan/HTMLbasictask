@@ -1,0 +1,214 @@
+body{
+    background-color:#EEEE ;
+}
+
+.Title{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box1{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    height: 500px;
+}
+.menu{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+     
+}
+.menu:hover{
+    color:#66afe9
+}
+
+.box8:hover,.box9:hover,.box10:hover,.box17:hover{
+    color: #66afe9;
+}
+.box2{
+
+    height: 500px;
+    width: 500px;
+    float:left;
+    margin-left: 60px;
+}
+.box3{
+    margin-top: 20px;
+    float:left;
+}
+.box4{
+    
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+
+   
+}
+.button2{
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #428bca;
+    border-color: #357ebd;
+
+} 
+
+.box5{
+    /*margin-left: 260px;*/
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.button3{
+    height: 30px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.span1{
+    font-size: 10px;
+    margin-left: 25px;
+}
+
+.button1{
+    font-size: 10px;
+    
+}
+.box6{
+    margin-top: 20px;
+    float:left;
+}
+.box7{
+    clear: left;
+}
+.box8{
+    margin-top: 90px;
+}
+.box9{
+    margin-top: 20px;
+}
+.box10{
+    margin-top: 20px;
+}
+
+.box11{
+    background-color: papayawhip;
+    height: 80px;
+    width: 500px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.span2{
+    margin-left: 34px;
+    font-size: 20px
+}
+
+.email{
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.box12{
+    float: right;
+    margin-top: 20px;
+}
+
+.button4{
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 30px;
+}
+
+.box13{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.button5{
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    height: 30px;
+}
+
+.password{
+    margin-left: 300px;
+}
+
+.box14{
+    padding-top: 20px;
+}
+
+.box15{
+    padding-top: 20px;
+}
+
+.box16{
+    padding-top: 20px;
+}
+.box14:hover,.box15:hover,.box16:hover{
+    color: #66afe9;
+}
+
+
+
+.box18{
+    float: right;
+    margin-top: 20px;
+    margin-right: 85px;
+}
+
+.button6{
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 30px;
+}
+
+    .box19{
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .button7{
+        color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #428bca;
+        border-color: #357ebd;
+        height: 30px;
+    }
+    .info{
+        margin-left: 358px;
+    }
+    .box20{
+        margin-top: 20px;
+    }
+    .box21{
+        margin-top: 20px;
+    }
+    .box22{
+        margin-top: 20px;
+    }
+    .box23{
+        margin-top: 20px;
+        width: 20px;
+    }
+    .box24{
+        margin-top: 20px;
+    }
+    .box25{
+        margin-top: 20px;
+    }
